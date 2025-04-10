@@ -10,6 +10,6 @@ We will practice steps including setting up the network resources in AWS, extend
 
 This lab helps us understand how to leverage AWS Local Zones to reduce latency in real-time applications while optimizing connectivity between on-premises environments and AWS.
 
-## 🖼️ Kiến trúc hệ thống
+## 🖼️ Architecture
 
-![Kiến trúc hệ thống](/static/images/architecture.png)
+![Architecture](/static/images/architecture.png)
