@@ -12,4 +12,4 @@ This lab helps us understand how to leverage AWS Local Zones to reduce latency i
 
 ## 🖼️ Kiến trúc hệ thống
 
-![Kiến trúc hệ thống](/images/architecture.png)
+![Kiến trúc hệ thống](/static/images/architecture.png)
