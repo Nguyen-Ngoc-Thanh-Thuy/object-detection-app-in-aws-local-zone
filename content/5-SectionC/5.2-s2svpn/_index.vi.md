@@ -8,7 +8,7 @@ pre : " <b> 5.2 </b> "
 
 Trong phần này, chúng ta sẽ mô phỏng môi trường on-premises bằng cách triển khai VPC trong khu vực **us-east-1** và sử dụng dịch vụ AWS Site-to-Site VPN.  
 
-**1. Tải xuống file [streamingServer_over_vgw.json](http://localhost:1313/data/streamingServer_over_vgw.json).**  
+**1. Tải xuống file [streamingServer_over_vgw.json](https://nguyen-ngoc-thanh-thuy.github.io/object-detection-app-in-aws-local-zone/data/streamingServer_over_vgw.json).**  
 
 {{% notice warning %}}  
 Loại máy ảo **c5.2xlarge** không khả dụng trong Availability Zone **us-east-1e** của khu vực us-east-1, chỉ được hỗ trợ trong AZs **us-east-1a đến us-east-1d** và **us-east-1f**. Do đó, file JSON chỉ định rõ **us-east-1a** để triển khai private subnet nhằm đảm bảo tính tương thích khi tạo các máy ảo **c5.2xlarge** sau này.  
