@@ -55,7 +55,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://nguyen-ngoc-thanh-thuy.github.io/object-detection-app-in-aws-local-zone/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
