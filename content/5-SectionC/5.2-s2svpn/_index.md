@@ -7,7 +7,7 @@ pre : " <b> 5.2 </b> "
 ---
 In this section, we will simulate an on-premises environment by deploying an VPC in a **us-east-1** region and using the AWS Site-to-Site VPN service.
 
-**1. Download the file [streamingServer_over_vgw.json](http://localhost:1313/data/streamingServer_over_vgw.json).**
+**1. Download the file [streamingServer_over_vgw.json](https://nguyen-ngoc-thanh-thuy.github.io/object-detection-app-in-aws-local-zone/data/streamingServer_over_vgw.json).**
 
 {{% notice warning %}}
 The instance type **c5.2xlarge** is not available in Availability Zone **us-east-1e** of the us-east-1 region and is only supported in AZs **us-east-1a to us-east-1d** and **us-east-1f**. Therefore, the JSON file explicitly specifies us-east-1a for deploying the private subnet to ensure compatibility when creating future c5.2xlarge EC2 instances.
