@@ -1,4 +1,4 @@
-# object-detection-app-in-aws-local-zone OBJECT DETECTION APPLICATION IN AWS LOCAL ZONE
+# OBJECT DETECTION APPLICATION IN AWS LOCAL ZONE
 
 🚀 Deploying a low-latency object detection in AWS Local Zone for streaming video via Site-to-Site VPN using OpenSwan.
 
